@@ -1,7 +1,0 @@
-language: node_js
-install: true
-before_install: true
-after_install: true
-before_script: true
-script: "sh ./b2.sh"
-after_script: true
