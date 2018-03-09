@@ -1,8 +1,8 @@
 #coding=utf-8 
 import os
-filedir = "/storage/sdcard0/AppProjects/LWYSTookit/src/main/"
+filedir = "/storage/sdcard0/AppProjects/LWYSToolkit/src/main/"
 filenames=os.listdir(filedir)
-f=open('/storage/sdcard0/AppProjects/LWYSTookit/build/final.js','w')
+f=open('/storage/sdcard0/AppProjects/LWYSToolkit/build/final.js','w')
     
 for line in open(filedir+"main.js"):
     f.writelines(line)
