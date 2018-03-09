@@ -1,2 +1,2 @@
-cd build && sh build_tci.sh
+cd build && sh build.sh
 exit 0
