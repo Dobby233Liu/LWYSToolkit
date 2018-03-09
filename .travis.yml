@@ -1,0 +1,3 @@
+install: echo 0
+script: sh ./build/build.sh
+after_success: echo "Yay! It's okay; Code: $TRAVIS_TEST_RESULT"
