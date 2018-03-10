@@ -38,3 +38,12 @@ var url="data:"+MIMEType+";base64,"+Base64;
 function dataUrlComp(blob){
 	return window.URL.createObjectURL(data);
 }
+/**
+* new Data(data)
+* Store data.
+* @author Liu wenyuan
+*/
+
+function Data(data){
+this.data=data;
+}
