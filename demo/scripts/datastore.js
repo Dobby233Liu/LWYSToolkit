@@ -1,3 +1,3 @@
 var p=prompt("Something here")
-var daata=new Data(p)
+var daata=Data(p)
 document.write("You input "+daata.data)
