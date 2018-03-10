@@ -1,9 +1,11 @@
 /**
-* new Data(data)
-* Store data.
+* function Data(data)
+* A Object than store data.
 * @author Liu wenyuan
 */
 
 function Data(data){
-this.data=data;
+var obj=new Object()
+obj.data=data;
+return obj
 }
